@@ -1,4 +1,8 @@
 class Search 
+    attr_reader :activity,
+                :price,
+                :participants 
+                
     def initialize(data)
         @activity = data[:activity]
         @price = data[:price]
