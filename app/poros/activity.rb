@@ -1,10 +1,10 @@
 class Activity 
-    attr_reader :activity,
+    attr_reader :description,
                 :price,
                 :participants 
                 
     def initialize(data)
-        @activity = data[:activity]
+        @description = data[:activity]
         @price = data[:price]
         @participants = data[:participants]
     end
