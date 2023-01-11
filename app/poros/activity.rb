@@ -1,4 +1,4 @@
-class Search 
+class Activity 
     attr_reader :activity,
                 :price,
                 :participants 
